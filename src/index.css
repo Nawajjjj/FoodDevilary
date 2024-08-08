@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  font-family: outfit;
+}
+body{
+  min-height: 100vh;;
+}
+a{
+  text-decoration: none;
+  color:inherit;
+}
+.app{
+  width: 80%;
+  margin: auto;
+}
+
+.img-logo .logo {
+  width: 100px; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 100%; /* Ensure the logo doesn't exceed its container */
+}
